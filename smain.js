@@ -1,9 +1,9 @@
-import { createServer } from 'http';
+const http = require('http');
 
 const hostname = '127.0.0.1';
 const port = 8080;
 
-const server = createServer((req, res) => {
+const server = http.createServer((req, res) => {
     res.writeHead(200, {'content-type': 'text/html; charset=UTF-8'});
     res.end('hey.');
 });
