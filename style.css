@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    color: #FFF;
+}
+
+body {
+    background-color: #000;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-image: url("/img/natologo.png");
+}
+
+img {
+    margin: auto;
+    width: 512px;
+    border: 5px solid black;
+}
